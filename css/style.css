@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* Header */
+
 .slider-wrapper {
     height: 736px;
     background-image: url("../image/slider.jpg");
@@ -119,6 +121,8 @@
     color: #c3a281;
 }
 
+/* Container 1 */
+
 .story-wrapper {
     background-image: url("../image/our__story.png");
     height: 852px;
@@ -212,6 +216,8 @@
     opacity: 0;
 }
 
+/* Container 2 */
+
 .layout_menu {
     height: 690px;
     background-image: url(../image/banner__picture.png);
@@ -281,11 +287,192 @@
     transition: 0.5s;
 }
 
+/* Container 3 */
+
 .layout_service {
     background-image: url(../image/our_services.png);
     background-size: cover;
-    height: 800px;
+    height: 891px;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+}
+
+.services__content_title {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.services__content_title h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #c3a281;
+}
+
+.services__content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__left,
+.services__right {
+    width: 49%;
+}
+
+.services__left {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+
+.services__left-items_1 {
+    width: 49%;
+    margin-bottom: 10px;
+    background-image: url("../image/our__services__items__1.png");
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .services__left-items {
+    background-color: #c3a281;
+    width: 49%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.services__left-items a {
+    text-decoration: none;
+    color: #c3a281;
+    background-color: #fff;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.services__left-items a:hover {
+    color: #c3a281;
+    background-color: #000;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.services__left-items_2 {
+    width: 49%;
+    margin-bottom: 10px;
+    background-image: url("../image/our__services__items__2.png");
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__left-items_2 a {
+    text-decoration: none;
+    background-color: #fff;
+    padding: 25px 35px;
+    font-size: 20px;
+    color: #c3a281;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+.services__left-items_2 a:hover {
+    color: #fff;
+    background-color: #c3a281;
+    transition: 0.5s;
+}
+
+.services__right {
+    margin-bottom: 10px;
+    position: relative;
+    transition: 0.5s;
+    background-image: url("../image/our__services__picture.png");
+    background-size: cover;
+ }
+
+.services__right-content {
+    position: absolute;
+    opacity: 0.7;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 250px;
+    display: flex;
+    justify-content: center;
+ }
+
+.services__right-item {
+    padding-top: 20px;
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.services__right-item a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #c3a281;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+.services__right-item a:hover {
+    color: #c3a281;
+    background-color: #fff;
+    transition: 0.5s;
+}
+/* Container 4 */
+.about_us {
+    height: 730px;
+    background-image: url(../image/about__us.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.about__us-button button {
+    padding: 50px 20px;
+    background-color: #c3a281;
+    border: none;
+    transition: 0.3s;
+}
+
+.about__us-button a {
+    color: #fff;
+}
+
+.about__us-button a:hover {
+    color: #fff;
+}
+
+.about__us-button button:hover {
+    padding: 55px 25px;
+    transition: 0.3s;
+}
+
+/* Container 5 */
+
+.contact {
+    background-image: url(../image/contact__us.png);
+    background-size: cover;
+    position: relative;
+    height: 852px;
+}
+
+
+/* Footer */
+.footer {
+    background-image: url(../image/footer.png);
+    background-size: cover;
+    height: 325px;
 }
