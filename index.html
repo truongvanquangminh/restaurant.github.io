@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -34,8 +35,8 @@
                         <div class="menu-right">
                             <ul>
                                 <li><a href="#service">Services</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -64,7 +65,9 @@
                     <img src="image/our__story__banner.png" alt="story">
                 </div>
                 <div class="story-right">
-                    <h1>Our Story</h1>
+                    <span>
+                        <h2>Our Story</h2>
+                    </span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis obcaecati nihil iste
                         laborum,
                         sed libero eius eligendi minus id aperiam. Lorem ipsum dolor sit amet consectetur
@@ -129,8 +132,9 @@
     <div class="wrapper" id="service">
         <div class="layout_service">
             <div class="services__content_title">
-                <h1>OUR SERVICES</h1>
-                <h1>__________________________</h1>
+                <span>
+                    <h2>OUR SERVICES</h2>
+                </span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div class="services__content">
@@ -157,8 +161,9 @@
                 <div class="services__right">
                     <div class="services__right-content">
                         <div class="services__right-item">
-                            <h4>Phasellus exercitation</h4>
-                            <h4 style="color: #c3a281;">__________________________</h4>
+                            <span>
+                                <h4>Phasellus exercitation</h4>
+                            </span>
                             <p>Enim doloribus repellat inventore reiciendis autem officiis ullamco, senectus, accumsan
                                 sapiente aliquet hic vel duis cupidatat quisquam!</p>
                             <a href="#">READ MORE +</a>
@@ -171,28 +176,121 @@
 
     <!-- Container 4 -->
 
-    <div class="wrapper">
+    <div class="wrapper" id="about">
         <div class="about_us">
             <div class="about__us-button">
                 <button><a href="#"><i class="fas fa-angle-left"></i></a></button>
             </div>
-            <div class="about__us-image">
-
+            <div class="about__us-content">
+                <div class="about__us-left">
+                    <div class="about_us-left1">
+                        <img src="image/chef-1.png" alt="chef" width="90%">
+                        <div class="about__us-title">
+                            <div class="about__us-title1">
+                                <h3>LOREM IPSUM</h3>
+                                <p>Lorem ipsum dolor</p>
+                            </div>
+                            <a href="#">+</a>
+                        </div>
+                    </div>
+                    <div class="about_us-left2">
+                        <img src="image/chef-2.png" alt="chef" width="90%">
+                        <div class="about__us-title2">
+                            <a href="#">READ MORE +</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__us-right">
+                    <div class="about__us-right_item">
+                        <span>
+                            <h2>ABOUT US</h2>
+                        </span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit atque odit exercitationem
+                            quae sapiente qui consequatur velit id, eius cumque!</p>
+                    </div>
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <iframe class="embed-responsive-item" width="100%" height="406px"
+                            src="https://www.youtube.com/embed/QBw85okYkqc" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Container 5 -->
-    <div class="wrapper">
+    <div class="wrapper" id="contact">
         <div class="contact">
-
+            <div class="contact__item">
+                <span>
+                    <h3>CONTACT</h3>
+                </span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aspernatur assumenda eligendi
+                    aliquid earum accusantium.</p>
+            </div>
+            <div class="contact__form">
+                <form action="">
+                    <div class="mb-3"><input type="text" placeholder="Name" class="form-control"></div>
+                    <div class="mb-3"><input type="email" placeholder="Email" class="form-control"></div>
+                    <div class="mb-3"><textarea name="Messages" placeholder="Message.." class="form-control"
+                            rows="5"></textarea></div>
+                    <button type="submit" class="btn btn-primary">Send <i class="fas fa-angle-right"></i></button>
+                </form>
+            </div>
+            <div class="contact__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d251637.95196238213!2d105.6189045!3d9.779349!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1610356187922!5m2!1svi!2s"
+                    width="770" height="695" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>F
+            </div>
         </div>
     </div>
 
     <!-- Footer -->
     <div class="wrapper">
         <div class="footer">
-            
+            <div class="container">
+                <div class="footer__menu">
+                    <div class="footer__left">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Our story</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Menu</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Our services</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                            <li><a href="">Lorem</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Comapany:AC Works Co.,Ltd</a></li>
+                            <li><a href="">Address: 17-17 Edo Hori 1 - chome Nishi - ku</a></li>
+                            <li><a href="">Osaka - shi 550-0002</a></li>
+                            <li><a href="">Phone number:06-6447-2020</a></li>
+                            <li><a href="">Mail address:info@acworks.co.jp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__right">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-behance-square"></i></a>
+                        <a href=""><i class="far fa-play-circle"></i></a>
+                        <a href=""><i class="fab fa-google-plus"></i></a>
+                        <img src="image/logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="footer__introduce">
+                    <a href="#">&copy; 2018 ABC.All rights reserved</a>
+                </div>
+            </div>
         </div>
     </div>
 

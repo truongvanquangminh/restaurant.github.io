@@ -1,0 +1,34 @@
+@media screen and (max-width:1199px) {
+
+    .story-left img {
+        width: 100%;
+    }
+
+    .story-right {
+        width: 40%;
+        margin: 0 10px;
+    }
+    
+
+}
+
+@media screen and (max-width:992px) {
+
+    .layout_menu {
+        max-height: 100%; 
+    }
+
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row-left{
+        max-width: 100%;
+    }
+    .row-right {
+        max-height: 100%;
+    }
+
+    
+}
