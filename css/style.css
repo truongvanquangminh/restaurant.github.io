@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 /* Header */
 
 .slider-wrapper {
@@ -567,7 +566,8 @@
     background-color: #c6a88a;
     display: flex;
     align-items: center;
-    padding: 20px 10px;
+    justify-content: center;
+    padding: 25px 10px;
 }
 
 .about__us-title1 h3 {
@@ -687,17 +687,46 @@
     color: white;
 }
 
+
+
 .contact__form input {
     background-color: #c6a88a;
     border: 1px solid #fff;
     color: white;
+    position: relative;
 }
+
+.form-control {
+    position: relative;
+    background: transparent;
+}
+
+/* :focus{
+    outline: none;
+} */
+
+.form-control ~ .focus-bg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ededed;
+    transition: 0.3s;
+    z-index: -1;
+}
+
+.form-control:focus ~ .focus-bg{
+    transition: 0.3s;
+    width: 100%;
+    left: 0;
+  }
 
 .contact__form input:focus {
     background-color: #c6a88a;
     border: 1px solid #fff;
     color: white;
-    cursor: pointer;
+    cursor: text;
 }
 
 
@@ -783,7 +812,7 @@
 
 .footer__right img {
     margin-top: 5px;
-    width: 70%;
+    width: 80%;
 }
 
 .footer__introduce {
